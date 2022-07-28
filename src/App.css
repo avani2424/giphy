@@ -1,24 +1,54 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
-.gifs {
-  margin: 0 auto;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.container {
+  background-color: rgb(238, 231, 231);
+
+}
+.head {
+  text-decoration: underline;
+  font-weight: bold;
+  font-weight: 500;
+  padding: 20px;
 }
 
-.gif {
-  padding: 0 2px;
+ h1 {
+  color: green;
 }
 
-.loader {
-  color: blue;
+label {
+  float: left;
+  padding: 5px;
+  width: 122px;
+  margin: 3px;
+}
+label::after {
+  content: '*';
+  color: red;
+  
+}
+
+
+span {
+  display: block;
+  overflow: hidden;
+  padding: 0px 4px 0px 6px;
+}
+
+input {
+  width: 70%;
 }
 
 .form-control{
-  width: 1200px;
-  height: 40px;
+  margin: 3px;
+}
+
+.btn{
+  width: 20%;
+    margin-left: 588px;
+}
+
+ .col-btn{
+  display: inline-block;
 }

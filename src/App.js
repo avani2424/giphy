@@ -1,10 +1,11 @@
 import React from "react";
-import Giphy from "./components/Giphy";
+
+import DisplayFormDataInTable from "./components/DisplayFormDataInTable";
 import "./App.css";
 const App = () => {
   return (
     <div>
-      <Giphy />
+      <DisplayFormDataInTable />
     </div>
   );
 };
